@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Noto Sans JP", Meiryo, sans-serif;
+  background: #f5f6f7;
+  color: #333;
+  line-height: 1.8;
+}
+
+.lang {
+  text-align: right;
+  padding: 10px;
+  background: #eee;
+}
+
+.lang button {
+  margin-left: 5px;
+}
+
+header {
+  background: #002f5f;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  background: white;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+h2 {
+  border-left: 5px solid #002f5f;
+  padding-left: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+th {
+  background: #f0f0f0;
+  width: 30%;
+}
+
+.services {
+  list-style: square;
+  padding-left: 20px;
+}
+
+.fleet {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.fleet img {
+  max-width: 450px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  background: #002f5f;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+footer {
+  background: #eee;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+/* 手机端 */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 22px;
+  }
+}
+.footer-nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer-nav a {
+  color: #002f5f;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-nav a:hover {
+  text-decoration: underline;
+}
