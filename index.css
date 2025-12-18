@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>株式会社旅ストーリー｜貸切バス事業</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="株式会社旅ストーリーは、安全・快適を第一にした貸切バス事業を提供します。">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- Language Switch -->
+<nav class="lang">
+  <button onclick="setLang('ja')">日本語</button>
+  <button onclick="setLang('zh')">中文</button>
+  <button onclick="setLang('en')">EN</button>
+</nav>
+
+<header>
+  <!-- <img src="images/logo.png" class="logo" alt="TravelStory Logo"> -->
+
+  <h1
+    data-ja="株式会社旅ストーリー"
+    data-zh="旅行故事株式会社"
+    data-en="TravelStory Co., Ltd.">
+  </h1>
+
+  <p
+    data-ja="安全と快適を運ぶ、信頼の貸切バス事業"
+    data-zh="以安全与舒适为核心的包车巴士服务"
+    data-en="A Trusted Charter Bus Company Delivering Safety and Comfort">
+  </p>
+</header>
+
+<main>
+
+<!-- Company Profile -->
+<section>
+  <h2
+    data-ja="会社概要"
+    data-zh="公司概要"
+    data-en="Company Profile">
+  </h2>
+
+  <table>
+    <tr>
+      <th
+        data-ja="商号"
+        data-zh="公司名称"
+        data-en="Company Name"></th>
+      <td
+        data-ja="株式会社旅ストーリー"
+        data-zh="旅行故事株式会社"
+        data-en="TravelStory Co., Ltd."></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="設立年月日"
+        data-zh="成立日期"
+        data-en="Date Established"></th>
+      <td
+        data-ja="2025年11月11日"
+        data-zh="2025年11月11日"
+        data-en="November 11, 2025"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="資本金"
+        data-zh="注册资本"
+        data-en="Capital"></th>
+      <td
+        data-ja="900万円"
+        data-zh="900万日元"
+        data-en="JPY 9,000,000"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="代表者"
+        data-zh="代表人"
+        data-en="Representative"></th>
+      <td
+        data-ja="代表取締役 吉永 照"
+        data-zh="代表董事 吉永 照"
+        data-en="CEO: Teru Yoshinaga"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="所在地"
+        data-zh="公司地址"
+        data-en="Head Office"></th>
+      <td
+        data-ja="〒123-0862 東京都足立区皿沼2-14-7"
+        data-zh="日本东京都足立区皿沼2-14-7"
+        data-en="2-14-7 Saranuma, Adachi-ku, Tokyo, Japan"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="事業内容"
+        data-zh="经营内容"
+        data-en="Business Description"></th>
+      <td
+        data-ja="一般貸切旅客自動車運送事業（許可申請予定）"
+        data-zh="一般包车旅客运输业务（许可申请中）"
+        data-en="Charter Bus Transportation Business (License Pending)"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="従業員数"
+        data-zh="员工人数"
+        data-en="Number of Employees"></th>
+      <td
+        data-ja="3名"
+        data-zh="3人"
+        data-en="3"></td>
+    </tr>
+
+    <tr>
+      <th
+        data-ja="保有車両"
+        data-zh="车辆数量"
+        data-en="Fleet Size"></th>
+      <td
+        data-ja="5台"
+        data-zh="5辆"
+        data-en="5 Vehicles"></td>
+    </tr>
+  </table>
+</section>
+
+<!-- Philosophy -->
+<section>
+  <h2
+    data-ja="経営理念"
+    data-zh="经营理念"
+    data-en="Our Philosophy">
+  </h2>
+
+  <p
+    data-ja="「安心」という土台の上に、お客様の旅の物語を最高に輝かせる。"
+    data-zh="以“安心”为基础，为客户打造最闪耀的旅程故事。"
+    data-en="We create unforgettable journeys built on a foundation of safety and trust.">
+  </p>
+</section>
+
+<!-- Services -->
+<section>
+  <h2
+    data-ja="サービス内容"
+    data-zh="服务内容"
+    data-en="Our Services">
+  </h2>
+
+  <ul class="services">
+    <li
+      data-ja="教育・研修輸送（修学旅行・遠足・部活动）"
+      data-zh="教育与研修运输（修学旅行、远足、社团活动）"
+      data-en="Educational & Training Transportation (School Trips, Excursions)">
+    </li>
+
+    <li
+      data-ja="団体・観光輸送（社員旅行・観光ツアー）"
+      data-zh="团体及观光运输（公司旅游、观光团）"
+      data-en="Group & Sightseeing Transportation">
+    </li>
+
+    <li
+      data-ja="ビジネス輸送（企業送迎・視察）"
+      data-zh="商务运输（企业接送、考察）"
+      data-en="Business Transportation (Corporate Shuttle, Inspection Tours)">
+    </li>
+
+    <li
+      data-ja="特別輸送（VIP・インバウンド対応）"
+      data-zh="特别运输（VIP及高端入境游客）"
+      data-en="Special Transportation for VIP and Inbound Guests">
+    </li>
+  </ul>
+</section>
+
+<!-- Fleet -->
+<section>
+  <h2
+    data-ja="保有車両"
+    data-zh="车辆介绍"
+    data-en="Our Fleet">
+  </h2>
+
+  <div class="fleet">
+    <img src="images/bus1.jpg" alt="Charter Bus">
+    <img src="images/bus2.jpg" alt="Charter Bus">
+  </div>
+</section>
+
+<!-- History -->
+<section>
+  <h2
+    data-ja="沿革"
+    data-zh="发展历程"
+    data-en="Company History">
+  </h2>
+
+  <ul>
+    <li
+      data-ja="2025年11月　株式会社旅ストーリー設立"
+      data-zh="2025年11月　旅行故事株式会社成立"
+      data-en="November 2025 – TravelStory Co., Ltd. Established">
+    </li>
+
+    <li
+      data-ja="2025年12月　一般貸切旅客自動車運送事業 許可申請"
+      data-zh="2025年12月　提交一般包车旅客运输许可申请"
+      data-en="December 2025 – Applied for Charter Bus Transportation License">
+    </li>
+  </ul>
+</section>
+
+<!-- Contact -->
+<section>
+  <h2
+    data-ja="お問い合わせ"
+    data-zh="联系我们"
+    data-en="Contact Us">
+  </h2>
+
+  <form action="https://formspree.io/f/xxxxabcd" method="POST">
+    <label>
+      <span data-ja="お名前" data-zh="姓名" data-en="Name"></span>
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      <span data-ja="メールアドレス" data-zh="邮箱" data-en="Email"></span>
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      <span data-ja="お問い合わせ内容" data-zh="咨询内容" data-en="Message"></span>
+      <textarea name="message" rows="5" required></textarea>
+    </label>
+
+    <button type="submit"
+      data-ja="送信"
+      data-zh="提交"
+      data-en="Send Message"></button>
+  </form>
+</section>
+
+</main>
+
+<footer>
+  <p data-ja="© 2025 株式会社旅ストーリー"
+     data-zh="© 2025 旅行故事株式会社"
+     data-en="© 2025 TravelStory Co., Ltd.">
+  </p>
+  <nav class="footer-nav">
+  <a href="index.html">トップ</a> |
+  <a href="tokushoho.html">特定商取引法表記</a>
+</nav>
+
+</footer>
+
+</body>
+</html>
